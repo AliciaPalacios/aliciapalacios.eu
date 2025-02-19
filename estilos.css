@@ -1,0 +1,83 @@
+* { padding:0; margin: 0 }
+
+body {
+    background: #fff url(newtopbg.jpg) repeat-x top;
+    font-family: 'Oswald', sans-serif;
+    color: #454545;
+}
+
+a { color: blue; text-decoration: none; }
+a:hover { text-decoration: underline }
+
+#content { 
+    padding: 0;
+    margin: 0 auto;
+    width: 865px;
+}
+
+#title { font-size: 32px; padding: 39px 0 10px 0; color: #fff; }
+#menu {  font-size: 18px; padding:  3px 0  2px 0; }
+#menu a { color: #fff; }
+#menu a:hover { text-decoration: none; }
+#menu li { display:inline; margin:0 0 0 30px; padding:0 }
+
+#header { text-align: center; color: #fff; padding: 18px 0 12px 0; }
+#header h1 { font-size: 24px; }
+
+#subheader { font-size: 24px; text-align:center; margin: 32px 0 32px 0; }
+.comment { font-size: 13px; }
+
+.larger { font-size: 105%; }
+
+#mainlinks { font-size: 19px; }
+#mainlinks li { margin-top: 14px; list-style:none; }
+
+#maincontent { width: 100%; margin-top: 32px; }
+
+h2 {
+    color: #3A3A3A;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    font-size: 130%;
+    margin: 30px 0 15px 0;
+    border-bottom: 1px dotted #aaa;
+}
+
+#yearmenu { text-align: center; font-size:110%; }
+
+h2.pubyear { 
+    color: #cc0000;
+    /* left margin set to -32px to counter left margin of 32px set in ol.publist */
+    margin-left: -32px;
+}
+
+h3 { 
+    font-weight: bold;
+    font-size: 110%;
+    margin: 25px 0 20px 0;
+}
+
+td { padding-top: 10px; vertical-align: middle; }
+/* add 10px of space after the first table column */
+td:first-child { padding-right: 10px; }
+/* do not add space at top in the first table row */
+tr:first-child > td { padding-top: 0; }
+
+ol.publist    { margin: 20px 0 0 32px; }
+ol.publist li { margin-bottom: 10px; }
+
+ul.publist    { margin: 20px 0 0 20px; }
+ul.publist li { margin-bottom: 10px; }
+.pubtitle   { color: #333333; }
+.pubtitle a { color: inherit; }
+.pubauthors { color: #993366; }
+.pubref     { color: #000099; }
+.pubconf    { color: #000099; }
+
+#footer {
+    clear:both;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    padding: 3px 0 0 0;
+    margin: 20px 0 15px 0;
+    color: #888;
+}
